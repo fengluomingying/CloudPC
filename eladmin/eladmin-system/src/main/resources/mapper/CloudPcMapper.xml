@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="me.zhengjie.gen.mapper.CloudPcMapper">
+    <resultMap id="BaseResultMap" type="me.zhengjie.gen.domain.CloudPc">
+        <id column="id" property="id"/>
+        <result column="time" property="time"/>
+        <result column="customer_name" property="customerName"/>
+        <result column="county" property="county"/>
+        <result column="problem_category" property="problemCategory"/>
+        <result column="technical_support_progress" property="technicalSupportProgress"/>
+        <result column="is_resolved" property="isResolved"/>
+        <result column="support_state" property="supportState"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, time, customer_name, county, problem_category, technical_support_progress, is_resolved, support_state
+    </sql>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from cloud_pc
+        <where>
+        </where>
+        order by id desc
+    </select>
+</mapper>

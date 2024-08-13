@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.qiniu:qiniu-java-sdk:7.9.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/软件/Maven/mavenRepository/com/qiniu/qiniu-java-sdk/7.9.3/qiniu-java-sdk-7.9.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/软件/Maven/mavenRepository/com/qiniu/qiniu-java-sdk/7.9.3/qiniu-java-sdk-7.9.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/软件/Maven/mavenRepository/com/qiniu/qiniu-java-sdk/7.9.3/qiniu-java-sdk-7.9.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
